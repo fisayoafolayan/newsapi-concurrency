@@ -1,11 +1,11 @@
 package provider
 
 import (
-	"concurrency-demo/internal/httpclient"
-	"concurrency-demo/internal/httpclient/news/apple"
-	"concurrency-demo/internal/httpclient/news/techcrunch"
-	"concurrency-demo/internal/httpclient/news/tesla"
-	"concurrency-demo/pkg/bootstrap"
+	"newsapi-concurrency/internal/httpclient"
+	"newsapi-concurrency/internal/httpclient/news/apple"
+	"newsapi-concurrency/internal/httpclient/news/techcrunch"
+	"newsapi-concurrency/internal/httpclient/news/tesla"
+	"newsapi-concurrency/pkg/bootstrap"
 
 	"github.com/labstack/echo"
 )

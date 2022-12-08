@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"os"
 
-	"concurrency-demo/internal/entity"
-	"concurrency-demo/internal/httpclient"
-	"concurrency-demo/internal/timeutil"
+	"newsapi-concurrency/internal/entity"
+	"newsapi-concurrency/internal/httpclient"
+	"newsapi-concurrency/internal/timeutil"
 )
 
 const (

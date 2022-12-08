@@ -6,14 +6,14 @@ import (
 	"os"
 	"time"
 
-	"concurrency-demo/internal/entity"
-	"concurrency-demo/internal/httpclient/news/apple"
-	"concurrency-demo/internal/httpclient/news/techcrunch"
-	"concurrency-demo/internal/httpclient/news/tesla"
-	"concurrency-demo/pkg/bootstrap"
 	"github.com/spf13/cobra"
-
 	"golang.org/x/sync/errgroup"
+
+	"newsapi-concurrency/internal/entity"
+	"newsapi-concurrency/internal/httpclient/news/apple"
+	"newsapi-concurrency/internal/httpclient/news/techcrunch"
+	"newsapi-concurrency/internal/httpclient/news/tesla"
+	"newsapi-concurrency/pkg/bootstrap"
 )
 
 func HTTPRequestsCommand() *cobra.Command {

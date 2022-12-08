@@ -4,10 +4,11 @@ import (
 	"fmt"
 	"log"
 
-	"concurrency-demo/internal/command"
-	"concurrency-demo/internal/provider"
 	"github.com/joho/godotenv"
 	"github.com/spf13/cobra"
+
+	"newsapi-concurrency/internal/command"
+	"newsapi-concurrency/internal/provider"
 )
 
 func main() {
