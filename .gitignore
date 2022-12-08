@@ -8,4 +8,5 @@
 /var/*
 !/var/.gitkeep
 
+/vendor
 .env

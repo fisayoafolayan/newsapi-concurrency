@@ -5,6 +5,7 @@ export
 
 dep: ## Download app dependencies
 	go mod tidy
+	go mod vendor
 
 build-cli: ## Build the cli binary
 	go build -trimpath -o bin/cli cmd/cli/main.go
