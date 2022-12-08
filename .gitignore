@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+
+
+/bin/*
+!/bin/.gitkeep
+
+/var/*
+!/var/.gitkeep
+
+.env
