@@ -1,7 +1,7 @@
 -include .env
 export
 
-.PHONY: build-cli fmt dep lint clean help fix-git
+.PHONY: build-cli fmt dep lint clean help
 
 dep: ## Download app dependencies
 	go mod tidy
