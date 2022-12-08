@@ -27,6 +27,3 @@ vet: ## Vet the code
 help: ## Show available commands
 	@grep -h -E '^[a-zA-Z_-]+:.*?## .*$$' ${MAKEFILE_LIST} | awk 'BEGIN {FS = ":.*?## "}; \
 	{printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
-
-fix-git: ## Fixes gitlab project URL
-	git config --global url."git@bucket.digitalarsenal.net:".insteadOf "https://bucket.digitalarsenal.net"
